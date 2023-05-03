@@ -67,6 +67,7 @@
 .color_bg_off_white {
     background-color: var(--bg-off-white);
 }
+.ff_raleway{font-family: 'raleway';}
 
 @media (min-width:576px) {
     :root {
