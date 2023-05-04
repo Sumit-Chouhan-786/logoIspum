@@ -8,16 +8,52 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="shortcut icon" href="./assets/images/svg/logo.svg" type="image/x-icon">
-    <link rel="stylesheet" href="./assets/css/Root.css">
-    <link rel="stylesheet" href="./assets/css/sumit.css">
+    <link rel="stylesheet" href="../css/Root.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
+    <div class="container">
+        <nav class="container myContainer py-4">
+            <div class=" bg-white d-flex justify-content-between">
+                <a href="#" class=" color_dark_blue fw-bolder text-decoration-none fs_md"><img
+                        src="./assets/images/svg/logo.svg" alt="" class="me-2">Logoipsum</a>
+                <div>
+                    <ul class="d-flex gap_30 navbar" id="navBar">
+                        <li><a href="#"
+                                class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">About</a>
+                        </li>
+                        <li><a href="#" class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">Our
+                                Services</a></li>
+                        <li><a href="#"
+                                class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">Portfolio
+                            </a></li>
+                        <li><a href="#"
+                                class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">Blog</a></li>
+                        <li><a href="#"
+                                class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">Contact</a>
+                        </li>
+                        <li><button class=" text-decoration-none ff_raleway fs_sm touch_btn fw-medium border-0">Get In
+                                Touch</button></li>
+                    </ul>
+                    <div class="mobile-navbar-btn">
+                        <ion-icon name="menu-outline" onclick="shownav()" class="mobile-nav-icon"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section class="color_bg_dark_blue py-5">
+        <div class="container myContainer py-5">
+            <h2 class="color_peach_red text-center fw-bold pb-2 fs_3xl mb-0">About</h2>
+            <p class="text-white text-center fw-medium fs_lg mb-0">Home / About</p>
+        </div>
+    </section>
     <section class="color_bg_off_white">
         <div class="container myContainer py-5 ">
             <div class="row py-5 align-items-center">
                 <div class="col-lg-6">
-                    <img src="./assets/images/png/about_img.png" alt="" class="w-100">
+                    <img src="../images/png/about_img.png" alt="abot-img" class="w-100">
                 </div>
                 <div class="col-lg-6 pt-5 pt-lg-0">
                     <p class="ff_raleway color_peach_red fw-bold fs_lg">\ About us \</p>
@@ -48,7 +84,7 @@
             </div>
         </div>
     </section>
- 
+
     <!-- bgblue-with-img -->
     <section class="py-sm-5 py-4 px-2">
         <div class="container my-lg-5">
@@ -80,7 +116,8 @@
                             </div>
                             <div class="text-white ff_raleway fw-bolder fs_lg ps-2 c_pointer">Logoipsum</div>
                         </div>
-                        <p class="ff_raleway text-white fw-medium mb-0 py-4 line_height_30 mw_263">It is a long established
+                        <p class="ff_raleway text-white fw-medium mb-0 py-4 line_height_30 mw_263">It is a long
+                            established
                             fact that a reader will be distracted by the readable content of a page when looking at</p>
                         <div class="d-flex gap-3">
                             <div class="footer_s_icon"><svg width="21" height="22" viewBox="0 0 21 22" fill="none"
@@ -146,10 +183,13 @@
 
                         </div>
                         <div class="d-flex align-items-center pt_20">
-                            <div class="f_career_icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.76562 13.2812L12.7344 35C7.1875 32.2656 3.35938 26.6406 3.35938 20C3.35938 17.6562 3.82812 15.3125 4.76562 13.2812ZM31.1719 19.2188C31.1719 17.1094 30.4688 15.7031 29.8438 14.6094C28.9844 13.2812 28.2031 12.1094 28.2031 10.7031C28.2031 9.21875 29.375 7.73438 30.9375 7.73438C31.0156 7.73438 31.0938 7.73438 31.1719 7.8125C28.2031 5.07812 24.2969 3.4375 20 3.4375C14.1406 3.4375 9.0625 6.40625 6.09375 10.9375C6.48438 10.9375 6.79688 10.9375 7.10938 10.9375C8.90625 10.9375 11.5625 10.7031 11.5625 10.7031C12.5 10.625 12.5781 11.9531 11.7188 12.1094C11.7188 12.1094 10.7812 12.1875 9.76562 12.2656L15.8594 30.2344L19.4531 19.2969L16.875 12.2656C16.0156 12.1875 15.1562 12.1094 15.1562 12.1094C14.2188 12.0312 14.375 10.625 15.2344 10.7031C15.2344 10.7031 17.9688 10.9375 19.6094 10.9375C21.3281 10.9375 24.0625 10.7031 24.0625 10.7031C24.9219 10.625 25.0781 11.9531 24.1406 12.1094C24.1406 12.1094 23.2812 12.1875 22.2656 12.2656L28.2812 30.0781L29.9219 24.5312C30.625 22.2656 31.1719 20.625 31.1719 19.2188ZM20.2344 21.4844L15.2344 36.0156C16.7969 36.4062 18.3594 36.6406 20 36.6406C21.875 36.6406 23.75 36.3281 25.4688 35.7031C25.4688 35.625 25.3906 35.5469 25.3906 35.4688L20.2344 21.4844ZM34.5312 12.0312C34.6094 12.5781 34.6875 13.125 34.6875 13.75C34.6875 15.4688 34.375 17.3438 33.3594 19.6875L28.2812 34.375C33.2812 31.4844 36.5625 26.1719 36.5625 20C36.5625 17.1094 35.8594 14.4531 34.5312 12.0312ZM39.375 20C39.375 30.7031 30.625 39.375 20 39.375C9.29688 39.375 0.625 30.7031 0.625 20C0.625 9.375 9.29688 0.625 20 0.625C30.625 0.625 39.375 9.375 39.375 20ZM38.4375 20C38.4375 9.84375 30.1562 1.5625 20 1.5625C9.76562 1.5625 1.48438 9.84375 1.48438 20C1.48438 30.2344 9.76562 38.5156 20 38.5156C30.1562 38.5156 38.4375 30.2344 38.4375 20Z" fill="#FF3E54"/>
+                            <div class="f_career_icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M4.76562 13.2812L12.7344 35C7.1875 32.2656 3.35938 26.6406 3.35938 20C3.35938 17.6562 3.82812 15.3125 4.76562 13.2812ZM31.1719 19.2188C31.1719 17.1094 30.4688 15.7031 29.8438 14.6094C28.9844 13.2812 28.2031 12.1094 28.2031 10.7031C28.2031 9.21875 29.375 7.73438 30.9375 7.73438C31.0156 7.73438 31.0938 7.73438 31.1719 7.8125C28.2031 5.07812 24.2969 3.4375 20 3.4375C14.1406 3.4375 9.0625 6.40625 6.09375 10.9375C6.48438 10.9375 6.79688 10.9375 7.10938 10.9375C8.90625 10.9375 11.5625 10.7031 11.5625 10.7031C12.5 10.625 12.5781 11.9531 11.7188 12.1094C11.7188 12.1094 10.7812 12.1875 9.76562 12.2656L15.8594 30.2344L19.4531 19.2969L16.875 12.2656C16.0156 12.1875 15.1562 12.1094 15.1562 12.1094C14.2188 12.0312 14.375 10.625 15.2344 10.7031C15.2344 10.7031 17.9688 10.9375 19.6094 10.9375C21.3281 10.9375 24.0625 10.7031 24.0625 10.7031C24.9219 10.625 25.0781 11.9531 24.1406 12.1094C24.1406 12.1094 23.2812 12.1875 22.2656 12.2656L28.2812 30.0781L29.9219 24.5312C30.625 22.2656 31.1719 20.625 31.1719 19.2188ZM20.2344 21.4844L15.2344 36.0156C16.7969 36.4062 18.3594 36.6406 20 36.6406C21.875 36.6406 23.75 36.3281 25.4688 35.7031C25.4688 35.625 25.3906 35.5469 25.3906 35.4688L20.2344 21.4844ZM34.5312 12.0312C34.6094 12.5781 34.6875 13.125 34.6875 13.75C34.6875 15.4688 34.375 17.3438 33.3594 19.6875L28.2812 34.375C33.2812 31.4844 36.5625 26.1719 36.5625 20C36.5625 17.1094 35.8594 14.4531 34.5312 12.0312ZM39.375 20C39.375 30.7031 30.625 39.375 20 39.375C9.29688 39.375 0.625 30.7031 0.625 20C0.625 9.375 9.29688 0.625 20 0.625C30.625 0.625 39.375 9.375 39.375 20ZM38.4375 20C38.4375 9.84375 30.1562 1.5625 20 1.5625C9.76562 1.5625 1.48438 9.84375 1.48438 20C1.48438 30.2344 9.76562 38.5156 20 38.5156C30.1562 38.5156 38.4375 30.2344 38.4375 20Z"
+                                        fill="#FF3E54" />
                                 </svg>
-                                
+
                             </div>
                             <div class="pl_20">
                                 <h4 class=" ff_raleway fs_md mb-0 fw-bold color_peach_red">Wordpress Dev.</h4>
@@ -158,13 +198,17 @@
 
                         </div>
                         <div class="d-flex align-items-center pt_20">
-                            <div class="f_career_icon"><svg width="50" height="22" viewBox="0 0 50 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M30.7031 1.3125C30.7031 2.32812 30.8594 3.89062 28.4375 4.75C27.7344 4.98438 27.1875 5.53125 27.1875 5.53125C27.1875 3.10938 27.5781 2.17188 28.5938 1.70312C29.2969 1.3125 30.7031 1.3125 30.7031 1.3125ZM21.6406 4.125L18.9844 14.4375L16.7188 6C16.1719 3.5 15.1562 2.17188 12.9688 2.17188C10.8594 2.17188 9.76562 3.42188 9.21875 6L6.95312 14.4375L4.29688 4.125C3.82812 2.01562 1.79688 1.07812 0 1.3125L5.07812 20.6875C5.07812 20.6875 6.79688 20.8438 7.65625 20.375C8.75 19.8281 9.29688 19.4375 9.92188 16.7812C10.5469 14.4375 12.1875 7.48438 12.3438 7.01562C12.7344 5.84375 13.2031 5.92188 13.5938 7.01562C13.75 7.48438 15.3906 14.4375 16.0156 16.7812C16.6406 19.4375 17.1875 19.8281 18.2812 20.375C19.1406 20.8438 20.8594 20.6875 20.8594 20.6875L25.9375 1.3125C24.0625 1.07812 22.1094 2.01562 21.6406 4.125ZM30.7031 4.51562C30.7031 4.51562 30.3906 4.98438 29.6094 5.45312C29.1406 5.6875 28.75 5.84375 28.2031 6.07812C27.0312 6.625 27.1875 7.17188 27.1875 8.8125V20.6875C27.1875 20.6875 28.5156 20.8438 29.375 20.4531C30.4688 19.9062 30.7031 19.3594 30.7031 16.9375V5.21875V4.51562ZM43.4375 11.0781L50 1.39062C50 1.39062 47.1875 0.921875 45.8594 2.17188C44.8438 3.10938 43.9844 4.51562 41.6406 7.875C41.5625 7.875 41.1719 8.65625 40.625 7.875C38.2812 4.51562 37.4219 3.10938 36.4062 2.17188C35 0.921875 32.2656 1.39062 32.2656 1.39062L38.75 11.0781L32.2656 20.6875C32.2656 20.6875 35.1562 21.0781 36.4844 19.8281C37.4219 19.0469 37.8906 18.2656 40.625 14.2812C41.1719 13.5 41.5625 14.2812 41.6406 14.2812C43.9062 17.6406 44.6875 18.8906 45.7812 19.8281C47.1094 21.0781 49.9219 20.6875 49.9219 20.6875L43.4375 11.0781Z" fill="#FF3E54"/>
+                            <div class="f_career_icon"><svg width="50" height="22" viewBox="0 0 50 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M30.7031 1.3125C30.7031 2.32812 30.8594 3.89062 28.4375 4.75C27.7344 4.98438 27.1875 5.53125 27.1875 5.53125C27.1875 3.10938 27.5781 2.17188 28.5938 1.70312C29.2969 1.3125 30.7031 1.3125 30.7031 1.3125ZM21.6406 4.125L18.9844 14.4375L16.7188 6C16.1719 3.5 15.1562 2.17188 12.9688 2.17188C10.8594 2.17188 9.76562 3.42188 9.21875 6L6.95312 14.4375L4.29688 4.125C3.82812 2.01562 1.79688 1.07812 0 1.3125L5.07812 20.6875C5.07812 20.6875 6.79688 20.8438 7.65625 20.375C8.75 19.8281 9.29688 19.4375 9.92188 16.7812C10.5469 14.4375 12.1875 7.48438 12.3438 7.01562C12.7344 5.84375 13.2031 5.92188 13.5938 7.01562C13.75 7.48438 15.3906 14.4375 16.0156 16.7812C16.6406 19.4375 17.1875 19.8281 18.2812 20.375C19.1406 20.8438 20.8594 20.6875 20.8594 20.6875L25.9375 1.3125C24.0625 1.07812 22.1094 2.01562 21.6406 4.125ZM30.7031 4.51562C30.7031 4.51562 30.3906 4.98438 29.6094 5.45312C29.1406 5.6875 28.75 5.84375 28.2031 6.07812C27.0312 6.625 27.1875 7.17188 27.1875 8.8125V20.6875C27.1875 20.6875 28.5156 20.8438 29.375 20.4531C30.4688 19.9062 30.7031 19.3594 30.7031 16.9375V5.21875V4.51562ZM43.4375 11.0781L50 1.39062C50 1.39062 47.1875 0.921875 45.8594 2.17188C44.8438 3.10938 43.9844 4.51562 41.6406 7.875C41.5625 7.875 41.1719 8.65625 40.625 7.875C38.2812 4.51562 37.4219 3.10938 36.4062 2.17188C35 0.921875 32.2656 1.39062 32.2656 1.39062L38.75 11.0781L32.2656 20.6875C32.2656 20.6875 35.1562 21.0781 36.4844 19.8281C37.4219 19.0469 37.8906 18.2656 40.625 14.2812C41.1719 13.5 41.5625 14.2812 41.6406 14.2812C43.9062 17.6406 44.6875 18.8906 45.7812 19.8281C47.1094 21.0781 49.9219 20.6875 49.9219 20.6875L43.4375 11.0781Z"
+                                        fill="#FF3E54" />
                                 </svg>
-                                
+
                             </div>
                             <div class="pl_20">
-                                <h4 class=" ff_raleway fs_md mb-0 fw-bold color_peach_red w_nowrap">Python Developer</h4>
+                                <h4 class=" ff_raleway fs_md mb-0 fw-bold color_peach_red w_nowrap">Python Developer
+                                </h4>
                                 <p class="text-white ff_raleway  mb-0 pt_10">1-5 Years of Exp.</p>
                             </div>
 
@@ -174,10 +218,13 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 pt-4 pt-lg-2">
                     <div class="box">
                         <h3 class="text-white ff_raleway fw-semibold  fs_lg mb-0 pb-3">Subscribe Us</h3>
-                        <p class="ff_raleway text-white fw-medium mb-0 py-4 line_height_30 mw_263">It is a long established 
+                        <p class="ff_raleway text-white fw-medium mb-0 py-4 line_height_30 mw_263">It is a long
+                            established
                             fact that a reader will be distracted by the readable </p>
-                            <div class="footer_input"><input type="text" placeholder="Email"></div>
-                            <div class="pt_20 d-flex justify-content-lg-end justify-content-start pe-1"><button class="color_bg_peach_red  text-white ff_raleway fw-medium footer_btn">Submit</button></div>
+                        <div class="footer_input"><input type="text" placeholder="Email"></div>
+                        <div class="pt_20 d-flex justify-content-lg-end justify-content-start pe-1"><button
+                                class="color_bg_peach_red  text-white ff_raleway fw-medium footer_btn">Submit</button>
+                        </div>
 
                     </div>
                 </div>
