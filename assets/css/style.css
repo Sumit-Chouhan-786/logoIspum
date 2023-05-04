@@ -53,7 +53,7 @@ body {
     display: inline-block;
     padding: 5px 0;
     position: relative;
-    background-clip:text;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.3s ease-in-out;
@@ -668,7 +668,90 @@ footer .box h3::before {
     bottom: 0;
 }
 
+.max-width-500px {
+    max-width: 500px;
+}
 
+.border-radius-10px {
+    border-radius: 10px;
+
+}
+
+.bg-color-light-pink {
+    background-color: #FFECEE;
+}
+
+.max-width-148px {
+    max-width: 148px;
+}
+
+.padding-top30 {
+    padding-top: 30px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.button-padding {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.radius-5px {
+    border-radius: 5px;
+}
+
+.line {
+    position: relative;
+}
+
+.line::after {
+    content: "";
+    background: #FF3E54;
+    border-radius: 6px;
+    position: absolute;
+    bottom: -20px;
+    width: 60px;
+    height: 6px;
+}
+
+.line::before {
+    content: "";
+    background: #FF3E54;
+    border-radius: 6px;
+    position: absolute;
+    left: 70px;
+    bottom: -20px;
+    width: 20px;
+    height: 6px;
+}
+
+.my-slider.slick-track {
+    display: flex !important;
+}
+
+.my-slider.slick-slide {
+    height: inherit !important;
+    display: flex !important;
+}
+
+.my-slider.slick-slide>div {
+    display: flex;
+}
+
+@media(min-width:1140px) {
+    .width-750 {
+        max-width: 750px !important
+    }
+}
+
+.my-slider .slick-slide:not(.slick-active) {
+    opacity: 0.5;
+
+}
 
 /* Media queries */
 /* custom container media query */
