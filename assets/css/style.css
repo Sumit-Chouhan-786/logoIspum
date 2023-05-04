@@ -1,20 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     list-style-type: none;
     text-decoration: none;
     box-sizing: border-box;
-    /* scroll-behavior: smooth; */
 }
 
+body {
+    font-family: 'raleway';
+}
+
+/* header */
 .touch_btn {
     background: #FF3E54;
+    color: white;
     border-radius: 5px;
     padding: 9px 18px;
 }
 
-/* Media queries */
+.view_btn {
+    padding: 17px 34px;
+    border-radius: 5px;
+}
 
+.header_circle {
+    position: absolute;
+    max-width: 200px;
+    top: -57%;
+    left: -15%;
+}
+
+.header_semicircle {
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    max-width: 100px;
+    width: 100%;
+}
+
+.header_semicircle2 {
+    position: absolute;
+    left: 30%;
+    bottom: -7%;
+    max-width: 100px;
+    width: 100%;
+    transform: rotate(90deg);
+}
+
+/* about */
+.about_box {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 15px 32px;
+    width: 100%;
+}
+
+.about_icon {
+    background: #F7F7F7;
+    border-radius: 10px;
+    padding: 15px 17px;
+}
+
+.mw_500 {
+    max-width: 500px;
+}
+
+/* planning */
+.planning_card {
+    background: #F7F7F7;
+    border-radius: 10px;
+    padding: 10px 14px 30px 30px;
+    max-width: 263px;
+    height: 100%;
+}
+
+.planning_icon {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.line {
+    position: relative;
+}
+
+.line::after {
+    content: "";
+    background: #FF3E54;
+    border-radius: 6px;
+    position: absolute;
+    bottom: -20px;
+    width: 60px;
+    height: 6px;
+}
+
+.line::before {
+    content: "";
+    background: #FF3E54;
+    border-radius: 6px;
+    position: absolute;
+    left: 70px;
+    bottom: -20px;
+    width: 20px;
+    height: 6px;
+}
+
+/* Media queries */
 /* custom container media query */
 @media (min-width:1200px) and (max-width:1440px) {
     .myContainer {
@@ -22,7 +115,7 @@
     }
 }
 
-@media (min-width:1200px) {
+@media (min-width:992px) {
     .min_vh100 {
         min-height: 100vh;
     }
@@ -57,4 +150,28 @@
         display: block;
     }
 
+    .header_semicircle2 {
+        display: none;
+    }
+
+}
+
+@media (max-width:576px) {
+    .about_box {
+        padding: 10px;
+    }
+
+    .view_btn {
+        padding: 14px 23px;
+    }
+
+    .header_semicircle {
+        display: none;
+    }
+}
+
+@media (max-width:400px) {
+    .about_box {
+        flex-direction: column;
+    }
 }
