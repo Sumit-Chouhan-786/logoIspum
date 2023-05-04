@@ -236,7 +236,7 @@
     border: 2px solid #FF3E54;
 }
 
-.touch_btn:hover {
+.bgblue_touch_btn:hover {
     background-color: #f5f6fa;
     color: #FF3E54;
 }
