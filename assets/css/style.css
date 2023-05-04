@@ -668,6 +668,9 @@ footer .box h3::before {
     bottom: 0;
 }
 
+.post_s_card{box-shadow: 0px 0px 10px rgba(255, 62, 84, 0.2);
+    border-radius: 10px;
+padding: 20px;}
 
 
 /* Media queries */
