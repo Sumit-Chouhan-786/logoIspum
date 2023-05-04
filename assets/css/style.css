@@ -53,7 +53,7 @@ body {
     display: inline-block;
     padding: 5px 0;
     position: relative;
-    background-clip:text;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.3s ease-in-out;
@@ -110,7 +110,7 @@ body {
     background-repeat: no-repeat;
     background-position: 0%;
     -webkit-transition: background 400ms ease-in-out;
-    transition: background 400ms ease-in-out;
+    transition: 400ms ease-in-out;
 }
 
 .view_btn:hover {
@@ -138,7 +138,7 @@ body {
 .header_semicircle2 {
     position: absolute;
     left: 30%;
-    bottom: -7%;
+    bottom: -8%;
     max-width: 100px;
     width: 100%;
     transform: rotate(90deg);
@@ -296,7 +296,10 @@ body {
 .w_nowrap {
     white-space: nowrap;
 }
-
+/* contact_form_bg */
+.contact_form_bg{
+    background-color: #FFF5F6;
+}
 
 /* form section section */
 
