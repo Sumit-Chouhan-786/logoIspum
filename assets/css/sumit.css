@@ -8,11 +8,7 @@
     box-sizing: border-box !important;
 }
 
-.container {
-    max-width: 1140px !important;
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-}
+
 
 .pl_15 {
     padding-left: 15px;
