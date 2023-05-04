@@ -46,9 +46,16 @@
     border: none;
     background: #FF3E54;
     border-radius: 5px;
-    transition: all 200ms linear;
+    border: 2px solid #FF3E54;
+    transition: all 300ms linear;
 }
-.form_btn:hover{background-color: #F7F7F7;}
+
+.form_btn:hover {
+    background-color: #F7F7F7;
+    color: #FF3E54;
+   
+}
+
 .form_section {
     margin-left: 30px;
     margin-right: 30px;
@@ -114,12 +121,23 @@
     background-color: white;
     border-radius: 10px;
     height: 100%;
+
 }
 
 .form_card_icon {
     background-color: var(--bg-off-white);
     padding: 15px;
     border-radius: 10px;
+    transition: all 300ms linear;
+}
+
+.form_card_icon:hover path {
+    fill: white;
+
+}
+
+.form_card_icon:hover {
+    background-color: #FF3E54;
 }
 
 
@@ -144,15 +162,29 @@
     width: 50px;
     display: flex;
     justify-content: center;
+    transition: all 300ms linear;
     align-items: center;
     border-radius: 10px;
+}
+
+.form_card_bottom_icon:hover path {
+    fill: #FF3E54;
+}
+
+.form_card_bottom_icon:hover {
+    background-color: #F7F7F7;
 }
 
 /* bloge cards */
 .bloge_card {
     padding: 20px;
+    transition: all 300ms linear;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(14, 31, 81, 0.2);
+}
+
+.bloge_card:hover {
+    transform: translatey(-10px);
 }
 
 .bloge_card h3 {
@@ -200,9 +232,32 @@
     padding: 9px 18px;
     color: #FFFFFF;
     border: 0;
+    transition: all 300ms linear;
+    border: 2px solid #FF3E54;
+}
+
+.touch_btn:hover {
+    background-color: #f5f6fa;
+    color: #FF3E54;
 }
 
 /* footer */
+
+.footer_logo_icon:hover path {
+    fill: white;
+}
+
+.footer_logo_icon:hover {
+    background-color: #FF3E54;
+    border-radius: 50px;
+}
+
+.footer_logo_icon {
+    transition: all 200ms linear;
+    overflow: hidden;
+    cursor: pointer;
+}
+
 .footer_s_icon {
     height: 50px;
     width: 50px;
@@ -211,6 +266,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 300ms linear;
+}
+
+
+.footer_s_icon:hover path {
+    fill: white;
+}
+
+.footer_s_icon:hover {
+    background-color: #FF3E54;
 }
 
 .line_height_30 {
@@ -227,6 +292,27 @@ footer ul li a {
 
 footer ul li {
     padding-top: 20px;
+}
+
+footer ul li a {
+    position: relative;
+}
+
+footer ul li a::after {
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: #FF3E54;
+    left: 0;
+    bottom: -10px;
+    border-radius: 5px;
+
+}
+
+footer ul li a:hover::after {
+    width: 100%;
+    transition: all 300ms linear;
 }
 
 .pl_20 {
@@ -249,6 +335,15 @@ footer ul li {
     align-items: center;
     background-color: #F7F7F7;
     border-radius: 10px;
+    transition: all 300ms linear;
+}
+
+.f_career_icon:hover path {
+    fill: white;
+}
+
+.f_career_icon:hover {
+    background-color: #FF3E54;
 }
 
 .footer_input input {
@@ -278,6 +373,15 @@ footer ul li {
 .footer_btn {
     padding: 12px 24px;
     border-radius: 10px;
+    transition: all 300ms linear;
+    border: 0;
+
+    border: 2px solid #FF3E54;
+}
+
+.footer_btn:hover {
+    background-color: #f5f6fa;
+    color: #FF3E54 !important;
 }
 
 footer .box h3 {
