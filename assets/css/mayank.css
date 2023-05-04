@@ -54,25 +54,17 @@
 }
 
 
-span {
-    width: 60px;
-    height: 6px;
-    background-color: Peach Red;
-    display: flex;
 
-
-}
-
-.slick-track {
+.my-slider.slick-track {
     display: flex !important;
 }
 
-.slick-slide {
+.my-slider.slick-slide {
     height: inherit !important;
     display: flex !important;
 }
 
-.slick-slide>div {
+.my-slider.slick-slide>div {
     display: flex;
 }
 
@@ -82,7 +74,7 @@ span {
     }
 }
 
-.slick-slide:not(.slick-active) {
+.my-slider .slick-slide:not(.slick-active) {
     opacity: 0.5;
-   
+
 }
