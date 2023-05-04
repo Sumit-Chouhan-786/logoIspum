@@ -673,7 +673,7 @@ footer .box h3::before {
 }
 
 .border-radius-10px {
-    border-radius: 10px;
+    border-radius: 10px !important;
 
 }
 
