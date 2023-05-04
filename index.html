@@ -32,7 +32,7 @@
                 <a href="#" class=" color_dark_blue fw-bolder text-decoration-none fs_md"><img
                         src="./assets/images/svg/logo.svg" alt="" class="me-2">Logoipsum</a>
                 <div>
-                    <ul class="d-flex gap-4 myNav">
+                    <ul class="d-flex gap_30 navbar" id="navBar">
                         <li><a href="#"
                                 class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">About</a>
                         </li>
@@ -46,8 +46,11 @@
                         <li><a href="#"
                                 class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">Contact</a>
                         </li>
-                        <li><a href="#" class=" text-decoration-none ff_raleway fs_sm touch_btn fw-medium">Get In Touch</a></li>
+                        <li><button class=" text-decoration-none ff_raleway fs_sm touch_btn fw-medium border-0">Get In Touch</button></li>
                     </ul>
+                    <div class="mobile-navbar-btn">
+                        <ion-icon name="menu-outline" onclick="shownav()" class="mobile-nav-icon"></ion-icon>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -65,7 +68,7 @@
                             <h1 class="ff_raleway color_dark_blue fw-bold pt-2 pb-3 fs_3xl">Better Insights For
                                 Business Growth</h1>
                         </div>
-                        <button class="ff_raleway text-white border-0 color_bg_peach_red view_btn fw-medium">View More</button>
+                        <button class="ff_raleway border-0 view_btn fw-medium mb-5">View More</button>
                     </div>
                     <div class="col-9 col-lg-6">
                         <img src="./assets/images/png/hero_img.png" alt="" class=" w-100">
@@ -198,6 +201,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
         integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <!-- SLICK-MIN-JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
