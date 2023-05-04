@@ -533,6 +533,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     transition: all 300ms linear;
 }
 
@@ -602,6 +603,7 @@ footer ul li a:hover::after {
     align-items: center;
     background-color: #F7F7F7;
     border-radius: 10px;
+    cursor: pointer;
     transition: all 300ms linear;
 }
 
