@@ -600,6 +600,7 @@ footer ul li a:hover::after {
     width: 68px;
     display: flex;
     justify-content: center;
+    cursor: pointer;
     align-items: center;
     background-color: #F7F7F7;
     border-radius: 10px;
