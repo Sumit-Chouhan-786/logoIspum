@@ -700,12 +700,14 @@ footer ul li a:hover::after {
     cursor: pointer;
     transition: all 300ms linear;
 }
+.f_career_hover{cursor: pointer;}
 
 .f_career_hover:hover .f_career_icon path {
     fill: white;
 }
 .f_career_hover:hover .f_career_icon{
     background-color: #FF3E54;
+    
 }
 
 
