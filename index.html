@@ -35,7 +35,7 @@
     <header class="d-flex min_vh100 flex-column">
         <nav class="container myContainer py-4">
             <div class=" bg-white d-flex justify-content-between">
-                <a href="./index.html" class=" color_dark_blue fw-bolder text-decoration-none fs_md"><img
+                <a href="./index.html" class=" color_dark_blue  fw-bolder text-decoration-none fs_md"><img
                         src="./assets/images/svg/logo.svg" alt="" class="me-2">Logoipsum</a>
                 <div>
                     <ul class="d-flex gap_30 navbar" id="navBar">
@@ -90,7 +90,7 @@
     <!-- About us -->
     <section class="color_bg_off_white">
         <div class="container myContainer py-5 ">
-            <div class="row py-lg-5 align-items-center">
+            <div class="row py-lg-5 ">
                 <div class="col-lg-6">
                     <img src="./assets/images/png/about_img.png" alt="" class="w-100">
                 </div>
@@ -402,14 +402,14 @@
     </section>
 
     <!-- my-slider -->
-    <section class="bg-white py-5">
+    <section class="bg-white pt-5">
         <div class="my-contaier container">
-            <h6 class="ff_raleway fs_lg fw-bold color_peach_red text-center mb-0">\ From our Customers \</h6>
+            <h6 class="ff_raleway fs_lg fw-bold color_peach_red text-center mb-0 mt-5">\ From our Customers \</h6>
             <p class="ff_raleway fs_xxl color_dark_blue fw-bold text-center">Testimonials</p>
         </div>
     </section>
     <!-- my-slider-main -->
-    <section class="bg-white overflow-hidden">
+    <section class="bg-white overflow-hidden pb-5">
         <div class="my-slider">
             <div class="p-2">
                 <div class="color_bg_off_white border-radius-10px width-750 d-flex flex-column p-3">
@@ -823,6 +823,7 @@
             speed: 300,
             asNavFor: '.my-slider',
             arrows: false,
+            dots:false,
             autoplay: true,
             slidesToShow: 4,
             slidesToScroll: 4,
@@ -861,34 +862,33 @@
             infinite: true,
             speed: 300,
             arrows: false,
-            autoplay: true,
-            slidesToShow: 1.6,
+            slidesToShow: 1.7,
             slidesToScroll: 1,
             responsive: [
-                {
-                    breakpoint: 1200,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: true
-                    }
-                },
-                {
-                    breakpoint: 992,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                },
-                {
-                    breakpoint: 576,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
                 }
-            ]
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
         });
     </script>
 
