@@ -124,7 +124,7 @@ body {
     background-image: linear-gradient(to right,
             #FF3E54,
             #FF3E54 50%,
-            #000 50%);
+            #0E1F51 50%);
     background-size: 200% 100%;
     background-position: -100%;
     display: inline-block;
@@ -132,7 +132,7 @@ body {
     position: relative;
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: #0E1F51;
+    -webkit-text-fill-color: transparent;
     transition: all 0.3s ease-in-out;
 }
 
@@ -146,6 +146,21 @@ body {
     width: 0;
     height: 3px;
     transition: all 0.3s ease-in-out;
+}
+
+.active_link:before {
+    content: '';
+    background: #FF3E54;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+}
+
+.active_link {
+    -webkit-text-fill-color: #FF3E54;
 }
 
 .navbar li a:hover {
@@ -178,24 +193,14 @@ body {
 
 .view_btn {
     padding: 17px 34px;
+    background: #FF3E54;
+    font-weight: 500;
+    color: #FFFFFF;
+    transition: all 300ms linear;
     border-radius: 5px;
     border: 2px solid #FF3E54 !important;
-    color: #fff;
-    background-image: -webkit-linear-gradient(30deg, #FF3E54 50%, transparent 50%);
-    background-image: linear-gradient(30deg, #FF3E54 50%, transparent 50%);
-    background-size: 500px;
-    background-repeat: no-repeat;
-    background-position: 0%;
-    -webkit-transition: background 400ms ease-in-out;
-    transition: 400ms ease-in-out;
 }
 
-.view_btn:hover {
-    background-position: 100%;
-    background-color: transparent;
-    border: 2px solid #FF3E54;
-    color: #FF3E54;
-}
 
 .header_circle {
     position: absolute;
@@ -254,6 +259,15 @@ body {
     padding: 15px;
 }
 
+.slick-track {
+    display: flex !important;
+}
+
+.slick-slide {
+    height: inherit !important;
+    display: flex !important;
+}
+
 .line {
     position: relative;
 }
@@ -287,6 +301,33 @@ body {
 .what_s_btn:hover {
     background-color: #F7F7F7;
     color: #FF3E54 !important;
+}
+
+.leader_img {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px -1px 20px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 12px;
+    transition: .3s;
+    overflow: hidden;
+    position: relative;
+}
+
+.leader_img::before {
+    content: '';
+    background: rgb(255, 255, 255, 0.4);
+    width: 50%;
+    height: 100%;
+    left: -125%;
+    top: 0%;
+    transform: skew(45deg);
+    position: absolute;
+    transition: left .4s ease-in-out;
+}
+
+.leader_img:hover::before {
+    left: 150%;
 }
 
 /* PORTFOLIO PAGE */
@@ -598,6 +639,7 @@ body {
 .bgblue_touch_btn:hover {
     background-color: #f5f6fa;
     color: #FF3E54;
+    border: 2px solid #FF3E54;
 }
 
 /* footer */
@@ -830,7 +872,7 @@ footer .box h3::before {
     opacity: 0.5;
 
 }
-    
+
 .border-radius-10px {
     border-radius: 10px !important;
 
