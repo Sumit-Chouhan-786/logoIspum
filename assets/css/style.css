@@ -132,7 +132,7 @@ body {
     position: relative;
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: #0E1F51;
     transition: all 0.3s ease-in-out;
 }
 
@@ -215,7 +215,7 @@ body {
 .header_semicircle2 {
     position: absolute;
     left: 30%;
-    bottom: -8%;
+    bottom: -6%;
     max-width: 100px;
     width: 100%;
     transform: rotate(90deg);
@@ -278,11 +278,16 @@ body {
     width: 20px;
     height: 6px;
 }
-.what_s_btn{border: 2px solid #FF3E54 !important;
-transition: all 300ms linear;}
 
-.what_s_btn:hover{ background-color: #F7F7F7;
-color: #FF3E54 !important;}
+.what_s_btn {
+    border: 2px solid #FF3E54 !important;
+    transition: all 300ms linear;
+}
+
+.what_s_btn:hover {
+    background-color: #F7F7F7;
+    color: #FF3E54 !important;
+}
 
 /* PORTFOLIO PAGE */
 .border_portfolio {
@@ -391,7 +396,7 @@ color: #FF3E54 !important;}
     height: 50px;
     font-weight: 500;
 
-    
+
     margin: 30px;
     color: #F7F7F7;
     font-family: 'Raleway';
@@ -761,10 +766,6 @@ footer .box h3::before {
     padding: 20px;
 }
 
-.max-width-500px {
-    max-width: 500px;
-}
-
 
 .border-radius-10px {
     border-radius: 10px !important;
@@ -824,11 +825,6 @@ footer .box h3::before {
 }
 
 
-@media(min-width:1140px) {
-    .width-750 {
-        max-width: 750px !important
-    }
-}
 
 .my-slider .slick-slide:not(.slick-active) {
     opacity: 0.5;
@@ -954,9 +950,33 @@ select {
     }
 }
 
+@media (min-width:1500px) {
+    .header_semicircle2 {
+        bottom: -8%;
+    }
+}
+
+@media (min-width:1200px) {
+    .max-width-500px {
+        max-width: 500px;
+    }
+
+    .mw_555 {
+        max-width: 555px;
+        margin: 0 auto;
+    }
+
+}
+
 @media (min-width:992px) {
     .min_vh100 {
         min-height: 100vh;
+    }
+}
+
+@media(min-width:1140px) {
+    .width-750 {
+        max-width: 750px !important
     }
 }
 
@@ -1005,6 +1025,7 @@ select {
 
 }
 
+
 @media(min-width:1140px) {
     .width-750 {
         max-width: 750px !important
@@ -1029,6 +1050,10 @@ select {
     .header_semicircle {
         display: none;
     }
+
+    .header_circle {
+        display: none;
+    }
 }
 
 @media (max-width:400px) {
@@ -1047,4 +1072,14 @@ select {
         width: 60px;
     }
 
+}
+
+@media(max-width:1200px) {
+    .padding-xl {
+        padding-top: 30px;
+    }
+
+    .w_xl_100 {
+        width: 100%;
+    }
 }
