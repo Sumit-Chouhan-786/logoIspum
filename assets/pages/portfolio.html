@@ -11,6 +11,8 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!-- favicon -->
     <link rel="shortcut icon" href="../images/svg/logo.svg" type="image/x-icon">
+    <!--  aos link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- style css -->
     <link rel="stylesheet" href="../css/style.css">
     <!-- root css -->
@@ -21,17 +23,21 @@
     <!-- navbar -->
     <nav class="container myContainer py-4">
         <div class=" bg-white d-flex justify-content-between">
-            <a href="/index.html" class=" color_dark_blue fw-bolder text-decoration-none fs_md"><img src="../images/svg/logo.svg"
-                    alt="" class="me-2">Logoipsum</a>
+            <a href="/index.html" class=" color_dark_blue fw-bolder text-decoration-none fs_md"><img
+                    src="../images/svg/logo.svg" alt="" class="me-2">Logoipsum</a>
             <div>
                 <ul class="d-flex gap_30 navbar" id="navBar">
-                    <li><a href="./about.html" class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">About</a>
+                    <li><a href="./about.html"
+                            class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">About</a>
                     </li>
-                    <li><a href="./services.html" class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">Our
+                    <li><a href="./services.html"
+                            class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">Our
                             Services</a></li>
-                    <li><a href="./portfolio.html" class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">Portfolio
+                    <li><a href="./portfolio.html"
+                            class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">Portfolio
                         </a></li>
-                    <li><a href="./blog.html" class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">Blog</a>
+                    <li><a href="./blog.html"
+                            class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">Blog</a>
                     </li>
                     <li><a href="./Contact.html"
                             class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">Contact</a>
@@ -49,7 +55,8 @@
     <section class="color_bg_dark_blue py-5">
         <div class="container myContainer py-5">
             <h2 class="color_peach_red text-center fw-bold pb-2 fs_3xl mb-0">Portfolio</h2>
-            <p class=" text-center fw-medium fs_lg mb-0"><a href="/index.html" class="text-white ">Home / Portfolio</a></p>
+            <p class=" text-center fw-medium fs_lg mb-0"><a href="/index.html" class="text-white ">Home / Portfolio</a>
+            </p>
         </div>
     </section>
     <!-- \ Portfolio \ -->
@@ -68,19 +75,19 @@
                 </ul>
             </div>
             <div class="grid_container pt-5">
-                <div class="grid_item grid_item1">
+                <div class="grid_item grid_item1" data-aos="zoom-in">
                     <img src="../images/png/grid1.png" alt="" class="w-100 h-100 object-fit-cover">
                 </div>
-                <div class="grid_item grid_item2">
+                <div class="grid_item grid_item2" data-aos="zoom-in">
                     <img src="../images/png/grid2.png" alt="" class="w-100 h-100 object-fit-cover">
                 </div>
-                <div class="grid_item grid_item3">
+                <div class="grid_item grid_item3" data-aos="zoom-in">
                     <img src="../images/png/grid3.png" alt="" class="w-100 h-100 object-fit-cover">
                 </div>
-                <div class="grid_item grid_item4">
+                <div class="grid_item grid_item4" data-aos="zoom-in">
                     <img src="../images/png/grid4.png" alt="" class="w-100 h-100 object-fit-cover">
                 </div>
-                <div class="grid_item grid_item5">
+                <div class="grid_item grid_item5" data-aos="zoom-in">
                     <img src="../images/png/grid5.png" alt="" class="w-100 h-100 object-fit-cover">
                 </div>
             </div>
@@ -91,7 +98,7 @@
     <!-- bgblue-with-img -->
     <section class="py-sm-5 py-4 px-2">
         <div class="container my-lg-5">
-            <div class="row px-xl-5 mx-xl-5">
+            <div class="row px-xl-5 mx-xl-5" data-aos="flip-left">
                 <div class="box bg_blue_img d-flex align-items-center flex-column py-sm-5 py-4">
                     <p class="pt-2">
                         “Some of the History of Our Company is that
@@ -247,6 +254,11 @@
         }
     </script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
