@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
         integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- aos css cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- favicon -->
     <link rel="shortcut icon" href="./assets/images/svg/logo.svg" type="image/x-icon">
     <!-- style css -->
@@ -36,7 +38,8 @@
                         <li><a href="./assets/pages/about.html"
                                 class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">About</a>
                         </li>
-                        <li><a href="./assets/pages/services.html" class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">Our
+                        <li><a href="./assets/pages/services.html"
+                                class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">Our
                                 Services</a></li>
                         <li><a href="./assets/pages/portfolio.html"
                                 class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">Portfolio
@@ -80,12 +83,12 @@
     </header>
     <!-- About us -->
     <section class="color_bg_off_white">
-        <div class="container myContainer py-5 ">
+        <div class="container myContainer py-5 overflow-hidden">
             <div class="row py-5 align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg-6"  data-aos="fade-right">
                     <img src="./assets/images/png/about_img.png" alt="" class="w-100">
                 </div>
-                <div class="col-lg-6 pt-5 pt-lg-0">
+                <div class="col-lg-6 pt-5 pt-lg-0" data-aos="fade-left">
                     <p class="ff_raleway color_peach_red fw-bold fs_lg">\ About us \</p>
                     <h2 class="ff_raleway color_dark_blue fs_xxl fw-bold pb-2">One of the Fastest Way to
                         Business Growth</h2>
@@ -121,7 +124,7 @@
             <h2 class="ff_raleway color_dark_blue fs_xxl fw-bold pb-4 mb-3 text-center">Our Process</h2>
             <div class="responsive">
                 <div class="px-2 d-flex justify-content-center">
-                    <div class="planning_card">
+                    <div class="planning_card "  data-aos="zoom-in">
                         <div class="d-flex justify-content-between">
                             <div class="planning_icon my-3">
                                 <img src="./assets/images/svg/research_icon.svg" alt="">
@@ -136,7 +139,7 @@
                     </div>
                 </div>
                 <div class="px-2 d-flex justify-content-center">
-                    <div class="planning_card">
+                    <div class="planning_card" data-aos="zoom-in">
                         <div class="d-flex justify-content-between">
                             <div class="planning_icon my-3">
                                 <img src="./assets/images/svg/design_icon.svg" alt="">
@@ -151,7 +154,7 @@
                     </div>
                 </div>
                 <div class="px-2 d-flex justify-content-center">
-                    <div class="planning_card">
+                    <div class="planning_card" data-aos="zoom-in">
                         <div class="d-flex justify-content-between">
                             <div class="planning_icon my-3">
                                 <img src="./assets/images/svg/develop_icon.svg" alt="">
@@ -166,7 +169,7 @@
                     </div>
                 </div>
                 <div class="px-2 d-flex justify-content-center">
-                    <div class="planning_card">
+                    <div class="planning_card" data-aos="zoom-in">
                         <div class="d-flex justify-content-between">
                             <div class="planning_icon my-3">
                                 <img src="./assets/images/svg/test_icon.svg" alt="">
@@ -185,13 +188,13 @@
     </section>
     <!-- what we do -->
     <section class="color_bg_off_white py-5">
-        <div class="container my-container">
+        <div class="container my-container overflow-hidden">
             <div class="row">
-                <div class="col-xl-6 col-10">
+                <div class="col-xl-6 col-10" data-aos="fade-right">
                     <div class="pt-2"><img class="w-100 border-radius-10px " src="/assets/images/png/group-img.png"
                             alt="group-img"></div>
                 </div>
-                <div class="col-xl-6 ">
+                <div class="col-xl-6 " data-aos="fade-left">
                     <div>
                         <p class="ff_raleway fw-bold fs_lg color_peach_red mb-0">\ What We Do \</p>
                     </div>
@@ -241,7 +244,7 @@
             <h6 class="ff_raleway fs_lg fw-bold color_peach_red text-center mb-0">\ Services \</h6>
             <p class="ff_raleway fs_xxl color_dark_blue fw-bold text-center">Our Expertice</p>
             <div class="row">
-                <div class="col-md-4 col-sm-6 p-3">
+                <div class="col-md-4 col-sm-6 p-3" data-aos="zoom-in">
                     <div class=" color_bg_off_white p-3 border-radius-10px h-100">
                         <img class="bg-white p-3  border-radius-10px" src="/assets/images/png/Black(6).png"
                             alt="block-1">
@@ -257,7 +260,7 @@
                             when looking at its layout</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 p-3">
+                <div class="col-md-4 col-sm-6 p-3" data-aos="zoom-in">
                     <div class=" color_bg_off_white p-3 border-radius-10px h-100">
                         <img class="bg-white p-3  border-radius-10px" src="/assets/images/png/Black(1).png"
                             alt="block-1">
@@ -272,7 +275,7 @@
                             when looking at its layout</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 p-3">
+                <div class="col-md-4 col-sm-6 p-3" data-aos="zoom-in">
                     <div class=" color_bg_off_white p-3 border-radius-10px h-100">
                         <img class="bg-white p-3  border-radius-10px" src="/assets/images/png/Black(2).png"
                             alt="block-1">
@@ -287,7 +290,7 @@
                             when looking at its layout</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 p-3">
+                <div class="col-md-4 col-sm-6 p-3" data-aos="zoom-in">
                     <div class=" color_bg_off_white p-3 border-radius-10px h-100">
                         <img class="bg-white p-3  border-radius-10px" src="/assets/images/png/Black(3).png"
                             alt="block-1">
@@ -303,7 +306,7 @@
                             when looking at its layout</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 p-3">
+                <div class="col-md-4 col-sm-6 p-3" data-aos="zoom-in">
                     <div class=" color_bg_off_white p-3 border-radius-10px h-100">
                         <img class="bg-white p-3  border-radius-10px" src="/assets/images/png/Black(4).png"
                             alt="block-1">
@@ -318,7 +321,7 @@
                             when looking at its layout</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 p-3">
+                <div class="col-md-4 col-sm-6 p-3" data-aos="zoom-in">
                     <div class=" color_bg_off_white p-3 border-radius-10px h-100">
                         <img class="bg-white p-3  border-radius-10px" src="/assets/images/png/Black(5).png"
                             alt="block-1">
@@ -346,28 +349,28 @@
             <p class="ff_raleway fs_xxl color_dark_blue fw-bold text-center">Our Leaders</p>
 
             <div class="row mb-5 justify-content-center">
-                <div class="col-lg-3 col-md-4 col-sm-6 col-8">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-8" data-aos="zoom-in">
                     <div><img class="w-100" src="/assets/images/png/Rectangle-14.png" alt="Rectangle-14"></div>
                     <div>
                         <h5 class="ff_raleway fw-bold fs_md color_peach_red text-center mt-3">Larry F. Burnett</h5>
                         <p class="ff_raleway fs_md color_dark_blue fw-medium text-center">CEO</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-8">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-8" data-aos="zoom-in">
                     <div><img class="w-100" src="/assets/images/png/Rectangle-15.png" alt="Rectangle-14"></div>
                     <div>
                         <h5 class="ff_raleway fw-bold fs_md color_peach_red text-center mt-3">Meghan J. Webb</h5>
                         <p class="ff_raleway fs_md color_dark_blue fw-medium text-center">CTO</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-8">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-8" data-aos="zoom-in">
                     <div><img class="w-100" src="/assets/images/png/Rectangle-16.png" alt="Rectangle-14"></div>
                     <div>
                         <h5 class="ff_raleway fw-bold fs_md color_peach_red text-center mt-3">Yvonne J. Cullum</h5>
                         <p class="ff_raleway fs_md color_dark_blue fw-medium text-center">CEO</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-8">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-8" data-aos="zoom-in">
                     <div><img class="w-100" src="/assets/images/png/Rectangle-17.png" alt="Rectangle-14"></div>
                     <div>
                         <h5 class="ff_raleway fw-bold fs_md color_peach_red text-center mt-3">Diana H. Williams</h5>
@@ -386,7 +389,7 @@
     </section>
     <!-- my-slider-main -->
     <section class="bg-white overflow-hidden">
-        <div class="my-slider">
+        <div class="my-slider" data-aos="zoom-in">
             <div class="p-2">
                 <div class="color_bg_off_white border-radius-10px width-750 d-flex flex-column p-3">
                     <div class="d-flex justify-content-between">
@@ -456,7 +459,7 @@
             <h3 class="color_peach_red ff_raleway text-center fs_lg fw-bold mb-0 pt-3">\ Get In Touch \</h3>
             <h2 class="text-white ff_raleway fs_xxl text-center fw-bold mb-0 pt-2">Hey! Let’s Talk</h2>
             <div class="row py-lg-5 py-3 ">
-                <div class="col-xl-8 col-md-7 ">
+                <div class="col-xl-8 col-md-7 " data-aos="fade-right">
                     <div class="box bg-white rounded-3 d-flex flex-column h-100">
                         <form class="  form_section d-flex flex-column">
                             <input type="text" placeholder="Name">
@@ -467,7 +470,7 @@
                         <button class="form_btn">Send Now</button>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-5 mt-3 mt-md-0">
+                <div class="col-xl-4 col-md-5 mt-3 mt-md-0" data-aos="fade-left">
                     <div class="form_s_card h-100">
                         <div class="d-flex align-items-center">
                             <div class="form_card_icon"><svg width="39" height="37" viewBox="0 0 33 31" fill="none"
@@ -564,7 +567,7 @@
             <h3 class="ff_raleway color_peach_red text-center fw-bold fs_lg">\ Our Blog \</h3>
             <h2 class="ff_raleway color_dark_blue text-center fw-bold fs_xxl">Latest Post</h2>
             <div class="row pt-4 justify-content-center">
-                <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+                <div class="col-lg-4 col-md-6 mt-4 mt-lg-0"  data-aos="flip-left">
                     <div class="bloge_card bg-white">
                         <div><img class="w-100" src="./assets/images/png/bloge_card_img1.png" alt="card-img"></div>
                         <h3>The most Popular Business
@@ -579,7 +582,7 @@
 
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+                <div class="col-lg-4 col-md-6 mt-4 mt-lg-0"  data-aos="flip-left">
                     <div class="bloge_card bg-white">
                         <div><img class="w-100" src="./assets/images/png/bloge_card_img2.png" alt="card-img"></div>
                         <h3>The most Popular Business
@@ -594,7 +597,7 @@
 
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+                <div class="col-lg-4 col-md-6 mt-4 mt-lg-0"  data-aos="flip-left">
                     <div class="bloge_card bg-white">
                         <div><img class="w-100" src="./assets/images/png/bloge_card_img3.png" alt="card-img"></div>
                         <h3>The most Popular Business
@@ -615,7 +618,7 @@
     <!-- bgblue-with-img -->
     <section class="py-sm-5 py-4 px-2">
         <div class="container my-lg-5">
-            <div class="row px-xl-5 mx-xl-5">
+            <div class="row px-xl-5 mx-xl-5" >
                 <div class="box bg_blue_img d-flex align-items-center flex-column py-sm-5 py-4">
                     <p class="pt-2">
                         “Some of the History of Our Company is that
@@ -779,7 +782,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- aos cdn -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- aos script -->
     <script>
+        AOS.init();
+    </script>
+
+    <script>
+
         $('.responsive').slick({
             dots: false,
             infinite: true,
@@ -817,7 +829,7 @@
         });
 
     </script>
-<!-- slider script -->
+    <!-- slider script -->
     <script>
         $('.my-slider').slick({
             dots: true,
