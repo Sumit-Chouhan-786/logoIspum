@@ -381,14 +381,14 @@
         </div>
     </section>
     <!-- my-slider -->
-    <section class="bg-white py-5">
+    <section class="bg-white pt-5">
         <div class="my-contaier container">
-            <h6 class="ff_raleway fs_lg fw-bold color_peach_red text-center mb-0">\ From our Customers \</h6>
+            <h6 class="ff_raleway fs_lg fw-bold color_peach_red text-center mb-0 mt-5">\ From our Customers \</h6>
             <p class="ff_raleway fs_xxl color_dark_blue fw-bold text-center">Testimonials</p>
         </div>
     </section>
     <!-- my-slider-main -->
-    <section class="bg-white overflow-hidden">
+    <section class="bg-white overflow-hidden pb-5">
         <div class="my-slider">
             <div class="p-2">
                 <div class="color_bg_off_white border-radius-10px width-750 d-flex flex-column p-3">
@@ -788,7 +788,8 @@
             infinite: true,
             speed: 300,
             arrows: false,
-            autoplay: true,
+            dots:
+                autoplay: true,
             slidesToShow: 4,
             slidesToScroll: 4,
             responsive: [
@@ -825,34 +826,33 @@
             infinite: true,
             speed: 300,
             arrows: false,
-            autoplay: true,
-            slidesToShow: 1.6,
+            slidesToShow: 1.7,
             slidesToScroll: 1,
             responsive: [
-                {
-                    breakpoint: 1200,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: true
-                    }
-                },
-                {
-                    breakpoint: 992,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                },
-                {
-                    breakpoint: 576,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
                 }
-            ]
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
         });
     </script>
 
