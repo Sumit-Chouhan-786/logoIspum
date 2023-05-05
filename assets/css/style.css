@@ -132,7 +132,7 @@ body {
     position: relative;
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: #0E1F51;
     transition: all 0.3s ease-in-out;
 }
 
@@ -386,7 +386,7 @@ body {
     height: 50px;
     font-weight: 500;
 
-    
+
     margin: 30px;
     color: #F7F7F7;
     font-family: 'Raleway';
@@ -1024,6 +1024,10 @@ select {
     .header_semicircle {
         display: none;
     }
+
+    .header_circle {
+        display: none;
+    }
 }
 
 @media (max-width:400px) {
@@ -1042,4 +1046,14 @@ select {
         width: 60px;
     }
 
+}
+
+@media(max-width:1200px) {
+    .padding-xl {
+        padding-top: 30px;
+    }
+
+    .w_xl_100 {
+        width: 100%;
+    }
 }
