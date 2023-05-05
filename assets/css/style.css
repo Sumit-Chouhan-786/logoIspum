@@ -668,15 +668,13 @@ footer .box h3::before {
     bottom: 0;
 }
 
-<<<<<<< HEAD
 .post_s_card{box-shadow: 0px 0px 10px rgba(255, 62, 84, 0.2);
     border-radius: 10px;
 padding: 20px;}
-=======
 .max-width-500px {
     max-width: 500px;
 }
->>>>>>> e270908f438999342f336a7b0ee52f9030833345
+
 
 .border-radius-10px {
     border-radius: 10px !important;
