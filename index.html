@@ -24,29 +24,38 @@
     <link rel="stylesheet" href="./assets/css/Root.css">
 </head>
 
-<body>
+<body class="loading">
+    <!-- Preloader -->
+    <div class="loader_bg" id="preLoader">
+        <div class="loader">
+            <img src="./assets/images/svg/logo.svg" alt="" class="preloader">
+        </div>
+    </div>
     <!-- Header -->
     <header class="d-flex min_vh100 flex-column">
         <nav class="container myContainer py-4">
             <div class=" bg-white d-flex justify-content-between">
-                <a href="#" class=" color_dark_blue fw-bolder text-decoration-none fs_md"><img
+                <a href="./index.html" class=" color_dark_blue fw-bolder text-decoration-none fs_md"><img
                         src="./assets/images/svg/logo.svg" alt="" class="me-2">Logoipsum</a>
                 <div>
                     <ul class="d-flex gap_30 navbar" id="navBar">
-                        <li><a href=""
+                        <li><a href="./assets/pages/about.html"
                                 class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">About</a>
                         </li>
-                        <li><a href="#" class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">Our
+                        <li><a href="./assets/pages/services.html"
+                                class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">Our
                                 Services</a></li>
                         <li><a href="./assets/pages/portfolio.html"
                                 class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">Portfolio
                             </a></li>
-                        <li><a href="#"
-                                class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">Blog</a></li>
-                        <li><a href="#"
+                        <li><a href="./assets/pages/blog.html"
+                                class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">Blog</a>
+                        </li>
+                        <li><a href="./assets/pages/Contact.html"
                                 class=" text-decoration-none ff_raleway fs_sm color_dark_blue fw-semibold">Contact</a>
                         </li>
-                        <li><button class=" text-decoration-none ff_raleway fs_sm touch_btn fw-medium border-0">Get In
+                        <li><button class=" text-decoration-none ff_raleway fs_sm touch_btn fw-medium border-0">Get
+                                In
                                 Touch</button></li>
                     </ul>
                     <div class="mobile-navbar-btn">
@@ -69,7 +78,7 @@
                             <h1 class="ff_raleway color_dark_blue fw-bold pt-2 pb-3 fs_3xl">Better Insights For
                                 Business Growth</h1>
                         </div>
-                        <button class="ff_raleway border-0 view_btn fw-medium mb-5">View More</button>
+                        <button class="ff_raleway border-0 view_btn fw-medium mb-5 ">View More</button>
                     </div>
                     <div class="col-9 col-lg-6">
                         <img src="./assets/images/png/hero_img.png" alt="girl_img" class=" w-100">
@@ -78,11 +87,10 @@
             </div>
         </section>
     </header>
-
     <!-- About us -->
     <section class="color_bg_off_white">
         <div class="container myContainer py-5 ">
-            <div class="row py-5 align-items-center">
+            <div class="row py-lg-5 align-items-center">
                 <div class="col-lg-6">
                     <img src="./assets/images/png/about_img.png" alt="" class="w-100">
                 </div>
@@ -90,7 +98,8 @@
                     <p class="ff_raleway color_peach_red fw-bold fs_lg">\ About us \</p>
                     <h2 class="ff_raleway color_dark_blue fs_xxl fw-bold pb-2">One of the Fastest Way to
                         Business Growth</h2>
-                    <p class="ff_raleway fs_sm fw-medium py-4 mw_500">It is a long established fact that a reader will
+                    <p class="ff_raleway fs_sm fw-medium py-4 mw_500">It is a long established fact that a reader
+                        will
                         be distracted by the
                         readable content of a page when looking at its layout. The point of
                         using Lorem Ipsum is that it has a more-or-less normal distribution
@@ -107,7 +116,8 @@
                         <div>
                             <p class="color_dark_blue fs_md mb-0 fw-bold">Get Instant Professional Advice</p>
                             <p class="ff_raleway fw-medium fw-bold fs_sm pt-2 mb-0">Ready to Help : <a
-                                    href="tel:+13566787897" class=" color_peach_red text-decoration-none ">+1 356 678
+                                    href="tel:+13566787897" class=" color_peach_red text-decoration-none ">+1 356
+                                    678
                                     7897</a></p>
                         </div>
                     </div>
@@ -115,10 +125,9 @@
             </div>
         </div>
     </section>
-
     <!-- planning -->
     <section>
-        <div class="container myContainer py-5 my-5">
+        <div class="container myContainer py-5 my-lg-5">
             <p class="ff_raleway color_peach_red fw-bold fs_lg text-center">\ Planning \</p>
             <h2 class="ff_raleway color_dark_blue fs_xxl fw-bold pb-4 mb-3 text-center">Our Process</h2>
             <div class="responsive">
@@ -133,7 +142,8 @@
                         <div class="line">
                             <h3 class="color_dark_blue fw-bold fs_md">Research</h3>
                         </div>
-                        <p class="pt-5 fw-medium fs_sm pe-3">It is a long established fact that a reader will be distra
+                        <p class="pt-5 fw-medium fs_sm pe-3">It is a long established fact that a reader will be
+                            distra
                             by the readable content of a page.</p>
                     </div>
                 </div>
@@ -148,7 +158,8 @@
                         <div class="line">
                             <h3 class="color_dark_blue fw-bold fs_md">Design</h3>
                         </div>
-                        <p class="pt-5 fw-medium fs_sm pe-3">It is a long established fact that a reader will be distra
+                        <p class="pt-5 fw-medium fs_sm pe-3">It is a long established fact that a reader will be
+                            distra
                             by the readable content of a page.</p>
                     </div>
                 </div>
@@ -163,7 +174,8 @@
                         <div class="line">
                             <h3 class="color_dark_blue fw-bold fs_md">Develope</h3>
                         </div>
-                        <p class="pt-5 fw-medium fs_sm pe-3">It is a long established fact that a reader will be distra
+                        <p class="pt-5 fw-medium fs_sm pe-3">It is a long established fact that a reader will be
+                            distra
                             by the readable content of a page.</p>
                     </div>
                 </div>
@@ -178,7 +190,8 @@
                         <div class="line">
                             <h3 class="color_dark_blue fw-bold fs_md">Test</h3>
                         </div>
-                        <p class="pt-5 fw-medium fs_sm pe-3">It is a long established fact that a reader will be distra
+                        <p class="pt-5 fw-medium fs_sm pe-3">It is a long established fact that a reader will be
+                            distra
                             by the readable content of a page.</p>
                     </div>
                 </div>
@@ -186,7 +199,6 @@
         </div>
     </section>
     <!-- what we do -->
-
     <section class="color_bg_off_white py-5">
         <div class="container my-container">
             <div class="row">
@@ -200,7 +212,8 @@
                     </div>
                     <h4 class="pt-2 fs_xxl ff_raleway color_dark_blue fw-bold mb-0">We Develope Product That
                         People Love to Use.</h4>
-                    <p class="ff_raleway text-black pt-3 fw-medium max-width-500px mb-0">It is a long established fact
+                    <p class="ff_raleway text-black pt-3 fw-medium max-width-500px mb-0">It is a long established
+                        fact
                         that a reader
                         will be distracted by the
                         readable content of a page when looking at its layout. The point of
@@ -214,7 +227,8 @@
                             </div>
                             <div>
                                 <h5 class="ff_raleway fw-bold color_peach_red">Our Vision</h5>
-                                <p class="ff_raleway fw-medium color_dark_blue max-width-148px mb-0">It is a long esta
+                                <p class="ff_raleway fw-medium color_dark_blue max-width-148px mb-0">It is a long
+                                    esta
                                     -blished fact that</p>
                             </div>
 
@@ -225,7 +239,8 @@
                             </div>
                             <div>
                                 <h5 class="ff_raleway fw-bold color_peach_red">Our Goal</h5>
-                                <p class="ff_raleway fw-medium color_dark_blue max-width-148px mb-0">It is a long esta
+                                <p class="ff_raleway fw-medium color_dark_blue max-width-148px mb-0">It is a long
+                                    esta
                                     -blished fact that</p>
                             </div>
 
@@ -252,7 +267,8 @@
                             <h4 class="ff_raleway fw-bolder fs_md mb-4">Web Design /
                                 Development</h4>
                         </div>
-                        <p class="ff_raleway fw-medium mt-4 pt-3">It is a long established fact that a reader will be
+                        <p class="ff_raleway fw-medium mt-4 pt-3">It is a long established fact that a reader will
+                            be
                             distra
                             by
                             the readable content of a page
@@ -267,7 +283,8 @@
                         <div class="line">
                             <h4 class="ff_raleway fw-bolder fs_md mb-4">UI/UX Design</h4>
                         </div>
-                        <p class="ff_raleway fw-medium mt-4 pt-3">It is a long established fact that a reader will be
+                        <p class="ff_raleway fw-medium mt-4 pt-3">It is a long established fact that a reader will
+                            be
                             distra
                             by
                             the readable content of a page
@@ -282,7 +299,8 @@
                         <div class="line">
                             <h4 class="ff_raleway fw-bolder fs_md mb-4">Website Migration</h4>
                         </div>
-                        <p class="ff_raleway fw-medium pt-3 mt-4">It is a long established fact that a reader will be
+                        <p class="ff_raleway fw-medium pt-3 mt-4">It is a long established fact that a reader will
+                            be
                             distra
                             by
                             the readable content of a page
@@ -298,7 +316,8 @@
                         <div class="line">
                             <h4 class="ff_raleway fw-bolder fs_md  mb-4">App Development</h4>
                         </div>
-                        <p class="ff_raleway fw-medium mt-4 pt-3">It is a long established fact that a reader will be
+                        <p class="ff_raleway fw-medium mt-4 pt-3">It is a long established fact that a reader will
+                            be
                             distra
                             by
                             the readable content of a page
@@ -313,7 +332,8 @@
                         <div class="line">
                             <h4 class="ff_raleway fw-bolder fs_md mb-4">HubSpot Integration</h4>
                         </div>
-                        <p class="ff_raleway fw-medium mt-4 pt-3">It is a long established fact that a reader will be
+                        <p class="ff_raleway fw-medium mt-4 pt-3">It is a long established fact that a reader will
+                            be
                             distra
                             by
                             the readable content of a page
@@ -380,6 +400,7 @@
             </div>
         </div>
     </section>
+
     <!-- my-slider -->
     <section class="bg-white pt-5">
         <div class="my-contaier container">
@@ -397,11 +418,13 @@
                         <div><img src="/assets/images/png/vec..png" alt="vec"></div>
                     </div>
                     <div class="py-4">
-                        <p class="ff_raleway fw-medium">It is a long established fact that a reader will be distracted
+                        <p class="ff_raleway fw-medium">It is a long established fact that a reader will be
+                            distracted
                             by
                             the readable content of a page
                             when looking at its
-                            layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+                            layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                            of
                             letters, as opposed.</p>
                     </div>
                     <div>
@@ -417,11 +440,13 @@
                         <div><img src="/assets/images/png/vec..png" alt="vec"></div>
                     </div>
                     <div class="py-4">
-                        <p class="ff_raleway fw-medium">It is a long established fact that a reader will be distracted
+                        <p class="ff_raleway fw-medium">It is a long established fact that a reader will be
+                            distracted
                             by
                             the readable content of a page
                             when looking at its
-                            layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+                            layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                            of
                             letters, as opposed.</p>
                     </div>
                     <div>
@@ -437,11 +462,13 @@
                         <div><img src="/assets/images/png/vec..png" alt="vec"></div>
                     </div>
                     <div class="py-4">
-                        <p class="ff_raleway fw-medium">It is a long established fact that a reader will be distracted
+                        <p class="ff_raleway fw-medium">It is a long established fact that a reader will be
+                            distracted
                             by
                             the readable content of a page
                             when looking at its
-                            layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+                            layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                            of
                             letters, as opposed.</p>
                     </div>
                     <div>
@@ -452,6 +479,10 @@
             </div>
         </div>
     </section>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4708469b8b333270e5c3f7a6e1c5c750f5987c8a
     <!-- form section -->
     <section class="color_bg_dark_blue py-lg-5 py-4">
         <div class="container">
@@ -560,7 +591,7 @@
             </div>
         </div>
     </section>
-    <!-- bloge card -->
+    <!-- blog card -->
     <section class="py-sm-5 py-4  color_bg_off_white">
         <div class="container my-lg-5">
             <h3 class="ff_raleway color_peach_red text-center fw-bold fs_lg">\ Our Blog \</h3>
@@ -647,7 +678,8 @@
                         </div>
                         <p class="ff_raleway text-white fw-medium mb-0 py-4 line_height_30 mw_263">It is a long
                             established
-                            fact that a reader will be distracted by the readable content of a page when looking at</p>
+                            fact that a reader will be distracted by the readable content of a page when looking at
+                        </p>
                         <div class="d-flex gap-3">
                             <div class="footer_s_icon"><svg width="21" height="22" viewBox="0 0 21 22" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -765,28 +797,35 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
+    <!-- preloader -->
+    <script>
+        setTimeout(function () {
+            document.getElementById('preLoader').classList.add('removeloader')
+            document.body.classList.remove("loading");
+        }, 3000)
+    </script>
     <!-- nav bar js -->
     <script>
         function shownav() {
             document.getElementById('navBar').classList.toggle('shownav');
             document.body.classList.toggle("overflow");
         }
-
     </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <!-- JQUERY-MIN-JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
         integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <!-- SLICK-MIN-JS -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
         $('.responsive').slick({
-            dots: false,
+            dots: true,
             infinite: true,
             speed: 300,
+            asNavFor: '.my-slider',
             arrows: false,
             dots:
                 autoplay: true,
@@ -818,8 +857,9 @@
                 }
             ]
         });
-    </script>
 
+    </script>
+    <!-- slider script -->
     <script>
         $('.my-slider').slick({
             dots: true,
