@@ -278,6 +278,11 @@ body {
     width: 20px;
     height: 6px;
 }
+.what_s_btn{border: 2px solid #FF3E54 !important;
+transition: all 300ms linear;}
+
+.what_s_btn:hover{ background-color: #F7F7F7;
+color: #FF3E54 !important;}
 
 /* PORTFOLIO PAGE */
 .border_portfolio {
