@@ -253,6 +253,10 @@ body {
     height: 100%;
 }
 
+.planning_card:hover {
+    transform: translateY(-10px) !important;
+}
+
 .planning_icon {
     background: #FFFFFF;
     border-radius: 10px;
@@ -708,14 +712,14 @@ footer ul li a::after {
     background-color: #FF3E54;
     left: 0;
     bottom: -10px;
-    transition: all 400ms ;
+    transition: all 400ms;
     border-radius: 5px;
 
 }
 
 footer ul li a:hover::after {
     width: 100%;
-    
+
 }
 
 .pl_20 {
@@ -742,14 +746,22 @@ footer ul li a:hover::after {
     cursor: pointer;
     transition: all 300ms linear;
 }
-.f_career_hover{cursor: pointer;}
+
+.f_career_hover {
+    cursor: pointer;
+}
 
 .f_career_hover:hover .f_career_icon path {
     fill: white;
 }
-.f_career_hover:hover .f_career_icon{
+
+.f_career_hover:hover .f_career_icon {
     background-color: #FF3E54;
-    
+
+}
+
+.card_hover:hover {
+    transform: translateY(-10px) !important;
 }
 
 
