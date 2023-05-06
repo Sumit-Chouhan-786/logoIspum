@@ -971,7 +971,7 @@ select {
     font-size: 10px;
     line-height: 20px;
     position: absolute;
-    top: 0;
+    top: 25%;
     left: 0;
     width: 20px;
     height: 20px;
@@ -983,6 +983,8 @@ select {
     border-radius: 50%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    margin-top: 40px;
+    
 }
 
 .slick-dots li.slick-active button:before {
