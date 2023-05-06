@@ -788,7 +788,7 @@ footer ul li a:hover::after {
     color: black;
 
 }
-
+.max-width-690px{max-width: 690px;}
 .footer_btn {
     padding: 12px 24px;
     border-radius: 10px;
@@ -880,13 +880,14 @@ footer .box h3::before {
     width: 20px;
     height: 6px;
 }
-
+/* 
 
 
 .my-slider .slick-slide:not(.slick-active) {
-    opacity: 0.5;
+    opacity: 0.8;
+    transform: scaleY(.8);
 
-}
+} */
 
 .border-radius-10px {
     border-radius: 10px !important;
@@ -946,16 +947,16 @@ footer .box h3::before {
     height: 6px;
 }
 
-.my-slider.slick-track {
+.slider.slick-track {
     display: flex !important;
 }
 
-.my-slider.slick-slide {
+.slider.slick-slide {
     height: inherit !important;
     display: flex !important;
 }
 
-.my-slider.slick-slide>div {
+.slider.slick-slide>div {
     display: flex;
 }
 
@@ -993,7 +994,7 @@ select {
 
 }
 
-.my-slider .slick-slide:not(.slick-active) {
+.slider .slick-slide:not(.slick-active) {
     opacity: 0.5;
     transform: scale(.8);
 

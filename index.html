@@ -413,15 +413,15 @@
     </section>
     <!-- my-slider-main -->
     <section class="bg-white overflow-hidden pb-5 mb-5">
-        <div class="my-slider" data-aos="zoom-in">
-            <div class="p-2">
-                <div class="color_bg_off_white border-radius-10px width-750 d-flex flex-column p-3">
+        <div class="slider" data-aos="zoom-in">
+           
+                <div class="color_bg_off_white border-radius-10px width-750 d-flex flex-column p-2 m-2 ">
                     <div class="d-flex justify-content-between">
                         <div><img src="/assets/images/png/ellips-1.png" alt="ellips-1"></div>
                         <div><img src="/assets/images/png/vec..png" alt="vec"></div>
                     </div>
                     <div class="py-4">
-                        <p class="ff_raleway fw-medium">It is a long established fact that a reader will be
+                        <p class="ff_raleway fw-medium max-width-690px">It is a long established fact that a reader will be
                             distracted
                             by
                             the readable content of a page
@@ -435,15 +435,15 @@
                         <p class="ff_raleway fw-medium fs_xsm">CEO</p>
                     </div>
                 </div>
-            </div>
-            <div class="p-2">
-                <div class="color_bg_off_white border-radius-10px width-750 d-flex flex-column p-3">
+            
+            
+                <div class="color_bg_off_white border-radius-10px width-750 d-flex flex-column p-2 m-2">
                     <div class="d-flex justify-content-between">
                         <div><img src="/assets/images/png/ellips-2.png" alt="ellips-1"></div>
                         <div><img src="/assets/images/png/vec..png" alt="vec"></div>
                     </div>
                     <div class="py-4">
-                        <p class="ff_raleway fw-medium">It is a long established fact that a reader will be
+                        <p class="ff_raleway fw-medium max-width-690px">It is a long established fact that a reader will be
                             distracted
                             by
                             the readable content of a page
@@ -457,15 +457,15 @@
                         <p class="ff_raleway fw-medium fs_xsm">CEO</p>
                     </div>
                 </div>
-            </div>
-            <div class="p-2">
-                <div class="color_bg_off_white border-radius-10px width-750 d-flex flex-column p-3">
+            
+            
+                <div class="color_bg_off_white border-radius-10px width-750 d-flex flex-column p-2 m-2">
                     <div class="d-flex justify-content-between">
                         <div><img src="/assets/images/png/ellips-3.png" alt="ellips-1"></div>
                         <div><img src="/assets/images/png/vec..png" alt="vec"></div>
                     </div>
                     <div class="py-4">
-                        <p class="ff_raleway fw-medium">It is a long established fact that a reader will be
+                        <p class="ff_raleway fw-medium max-width-690px">It is a long established fact that a reader will be
                             distracted
                             by
                             the readable content of a page
@@ -479,7 +479,7 @@
                         <p class="ff_raleway fw-medium fs_xsm">CEO</p>
                     </div>
                 </div>
-            </div>
+            
         </div>
     </section>
     <!-- form section -->
@@ -867,16 +867,17 @@
     </script>
     <!-- slider script -->
     <script>
-        $('.my-slider').slick({
+        $('.slider').slick({
             dots: true,
             infinite: true,
             speed: 300,
             arrows: false,
             slidesToShow: 1.7,
             slidesToScroll: 1,
+            centermode:true,
             responsive: [
                 {
-                    breakpoint: 1200,
+                    breakpoint: 992,
                     settings: {
                         slidesToShow: 2,
                         slidesToScroll: 1,
@@ -885,19 +886,13 @@
                     }
                 },
                 {
-                    breakpoint: 992,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                },
-                {
                     breakpoint: 576,
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1
                     }
-                }
+                },
+               
             ]
         });
     </script>
