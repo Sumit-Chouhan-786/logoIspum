@@ -1007,11 +1007,6 @@ select {
     }
 }
 
-@media (min-width:1500px) {
-    .header_semicircle2 {
-        bottom: -8%;
-    }
-}
 
 @media (min-width:1200px) {
     .max-width-500px {
