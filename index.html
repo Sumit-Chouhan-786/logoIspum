@@ -416,33 +416,11 @@
         </div>
     </section>
     <!-- my-slider-main -->
-    <section class="bg-white overflow-hidden pb-5 mb-5">
-        <div class="my-slider" data-aos="zoom-in">
+    <div class="main overflow-hidden">
+        <div class="slider slide-show">
             <div class="p-2">
                 <div class="color_bg_off_white border-radius-10px width-750 d-flex flex-column p-3">
                     <div class="d-flex justify-content-between">
-                        <div><img src="/assets/images/png/ellips-1.png" alt="ellips-1"></div>
-                        <div><img src="/assets/images/png/vec..png" alt="vec"></div>
-                    </div>
-                    <div class="py-4">
-                        <p class="ff_raleway fw-medium">It is a long established fact that a reader will be
-                            distracted
-                            by
-                            the readable content of a page
-                            when looking at its
-                            layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
-                            of
-                            letters, as opposed.</p>
-                    </div>
-                    <div>
-                        <h6 class="ff_raleway color_peach_red fw-bold">Samual Karl</h6>
-                        <p class="ff_raleway fw-medium fs_xsm">CEO</p>
-                    </div>
-                </div>
-            </div>
-            <div class="p-2">
-                <div class="color_bg_off_white border-radius-10px width-750 d-flex flex-column p-3">
-                     <div class="d-flex justify-content-between">
                         <div><img src="/assets/images/png/ellips-2.png" alt="ellips-1"></div>
                         <div><img src="/assets/images/png/vec..png" alt="vec"></div>
                     </div>
@@ -479,13 +457,36 @@
                             letters, as opposed.</p>
                     </div>
                     <div>
+                        <h6 class="ff_raleway color_peach_red fw-bold">Daria Linney</h6>
+                        <p class="ff_raleway fw-medium fs_xsm">CEO</p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-2">
+                <div class="color_bg_off_white border-radius-10px width-750 d-flex flex-column p-3">
+                    <div class="d-flex justify-content-between">
+                        <div><img src="/assets/images/png/ellips-2.png" alt="ellips-1"></div>
+                        <div><img src="/assets/images/png/vec..png" alt="vec"></div>
+                    </div>
+                    <div class="py-4">
+                        <p class="ff_raleway fw-medium">It is a long established fact that a reader will be
+                            distracted
+                            by
+                            the readable content of a page
+                            when looking at its
+                            layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                            of
+                            letters, as opposed.</p>
+                    </div>
+                    <div>
                         <h6 class="ff_raleway color_peach_red fw-bold">Samual Karl</h6>
                         <p class="ff_raleway fw-medium fs_xsm">CEO</p>
                     </div>
                 </div>
             </div>
+
         </div>
-    </section>
+    </div>
     <!-- form section -->
     <section class="color_bg_dark_blue py-lg-5 py-4">
         <div class="container overflow-hidden">
@@ -816,13 +817,9 @@
     </script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <!-- JQUERY-MIN-JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
-        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- SLICK MIN JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
-        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <!-- aos cdn -->
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -871,33 +868,28 @@
     </script>
     <!-- slider script -->
     <script>
-        $('.my-slider').slick({
-            dots: true,
-            infinite: true,
-            speed: 300,
-            arrows: false,
-            slidesToShow: 1,
-            centerMode:true,
+        $('.slide-show').slick({
+            slidesToShow: 2.3,
             slidesToScroll: 1,
-            responsive: [
-                {
-                    breakpoint: 1200,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: true
-                    }
-                },
+            centerMode: true,
+            arrows: true,
+            dots: true,
+            speed: 300,
+            centerPadding: '20px',
+            infinite: true,
+              responsive: [
+             
                 {
                     breakpoint: 992,
                     settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
+                        slidesToShow: 1.6,
+                        slidesToScroll: 2,
+                         centerMode: true,
+                         centerPadding: '20px',
                     }
                 },
                 {
-                    breakpoint: 576,
+                    breakpoint: 768,
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1
